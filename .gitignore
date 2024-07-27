@@ -1,0 +1,22 @@
+# Ignorar todo en la raíz del directorio de WordPress
+/*
+!.gitignore
+!wp-content/plugins/
+
+# Ignorar todo en wp-content menos wp-content/plugins
+wp-content/*
+!wp-content/plugins/
+
+# Ignorar carpetas y archivos generados
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Ignorar archivos de configuración local
+wp-config.php
+.htaccess
+
+# Ignorar otros directorios comunes de WordPress
+wp-admin/
+wp-includes/
