@@ -1,0 +1,40 @@
+{
+  "apiVersion": 2,
+  "name": "cl/clients",
+  "title": "Clients list",
+  "category": "widgets",
+  "icon": "businessperson",
+  "description": "Show clients.",
+  "keywords": ["clients", "list", "cl"],
+  "version": "0.0.1",
+  "textdomain": "cl",
+  "attributes": {
+    "title": {
+      "source": "html",
+      "selector": "h2",
+      "default": "Lista de clientes"
+    },
+    "nameColumnTitle": {
+      "type": "string",
+      "default": "Nombre"
+    },
+    "lastnameColumnTitle": {
+      "type": "string",
+      "default": "Apellido"
+    },
+    "provinceColumnTitle": {
+      "type": "string",
+      "default": "Provincia"
+    },
+    "numberOfClients": {
+      "type": "number",
+      "default": 5
+    },
+    "order": {
+      "type": "string",
+      "default": "asc"
+    }
+  },
+  "editorScript": "file:./build/index.js",
+  "style": "file:./build/index.css"
+}

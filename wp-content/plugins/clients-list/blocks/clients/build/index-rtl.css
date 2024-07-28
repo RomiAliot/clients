@@ -1,0 +1,59 @@
+/*!************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./clients/src/styles.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************/
+.wp-block-cl-clients {
+  overflow-y: scroll;
+}
+.wp-block-cl-clients .wp-block-cl-clients::-webkit-scrollbar {
+  width: 12px;
+}
+.wp-block-cl-clients .wp-block-cl-clients::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.wp-block-cl-clients .wp-block-cl-clients::-webkit-scrollbar-thumb {
+  background: #55608f;
+  border-radius: 6px;
+}
+.wp-block-cl-clients .wp-block-cl-clients::-webkit-scrollbar-thumb:hover {
+  background: #434a61;
+}
+.wp-block-cl-clients table {
+  min-width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.wp-block-cl-clients th {
+  color: #fff;
+  padding: 15px;
+}
+.wp-block-cl-clients td {
+  padding: 15px;
+  max-width: 100%;
+  overflow-y: scroll;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #1e1d1d;
+  border-bottom: 1px solid #55608f;
+}
+.wp-block-cl-clients th {
+  text-align: right;
+}
+.wp-block-cl-clients thead th {
+  background-color: #55608f;
+}
+.wp-block-cl-clients tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.wp-block-cl-clients tbody td {
+  position: relative;
+}
+.wp-block-cl-clients tbody td:hover:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: -9999px;
+  bottom: -9999px;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: -1;
+}
